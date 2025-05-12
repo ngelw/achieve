@@ -1,0 +1,46 @@
+.bucketlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c34;
+    padding: 2rem;
+    margin: 4rem auto;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+  }
+  
+  .bucketlist-title {
+    font-size: 2rem;
+    color: #ff6ec7;
+    text-shadow: 0 0 5px #ff6ec7aa;
+    margin-bottom: 1rem;
+  }
+  
+  .bucketlist-count {
+    font-size: 1.5rem;
+    color: #61dafb;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bucketlist-button {
+    background-color: #ff233d;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    min-width: 150px;
+  }
+  
+  .bucketlist-button:hover {
+    background-color: #0040ff;
+    transform: scale(1.05);
+  }
+  
