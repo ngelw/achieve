@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Navbar />
+      <HomePage />
       <main>
       <Routes>
         <Route path="/lovecount" element={<LoveCount />} />
