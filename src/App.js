@@ -23,6 +23,7 @@ function App() {
         <Route path="/bucketlist" element={<BucketList />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/achieve" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path='/music' element={<Music />} />
       </Routes>
       </main>
