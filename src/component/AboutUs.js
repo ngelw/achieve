@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css"
+import profileImg from '../assets/profile.png'
 function AboutUs(){
     return(
         <>
@@ -15,7 +16,7 @@ function AboutUs(){
         <h2 class="team-heading">Meet The Developer</h2>
         <div class="team-cards">
           <div class="team-card">
-            <img src="/profile.png" alt="Alice" class="team-img"/>
+            <img src={profileImg} alt="Alice" class="team-img"/>
             <h3>Angel</h3>
             <p>CS Undergraduate</p>
             <p>Freshman</p>
@@ -26,7 +27,7 @@ function AboutUs(){
     </div>
   </section>
   <div className="contact-container">
-        <h1 className="contact-heading">Contact Us</h1>
+        <h1 className="contact-heading">Contact Me</h1>
         <div className="contact-info">
           <div className="contact-item">
             <h2>Email</h2>

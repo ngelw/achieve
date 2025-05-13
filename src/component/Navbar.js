@@ -6,10 +6,11 @@ function Navbar(){
     return(
         
             <nav className="nav-bar">
-                <img src="/logo.png" className="App-logo" alt="logo" />
+                <Link to="/"><img src="/logo.png" className="App-logo" alt="logo" /></Link>
                 <Link to="/lovecount">Love Count</Link>
                 <Link to="/appreciate">Appreciate</Link>
                 <Link to="/bucketlist">BucketList</Link>
+                <Link to="/music">Music</Link>
                 <Link to="/aboutus">About Us</Link>
                 
 

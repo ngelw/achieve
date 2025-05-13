@@ -6,6 +6,8 @@ import LoveCount from './features/LoveCount';
 import Appreciate from "./features/Appreciate";
 import BucketList from './features/BucketList';
 import AboutUs from './component/AboutUs';
+import HomePage from './component/Homepage';
+import Music from './features/Music';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/appreciate" element={<Appreciate />} />
         <Route path="/bucketlist" element={<BucketList />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path='/music' element={<Music />} />
       </Routes>
       </main>
       
