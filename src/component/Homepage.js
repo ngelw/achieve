@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homepage.css"
+import { Link } from "react-router-dom";
 function HomePage() {
     return(
         <div className="home-container">
@@ -9,9 +10,9 @@ function HomePage() {
         By cherishing those who matter, we unlock motivation, peace, and clarity to pursue our goals.
       </p>
       <div className="home-buttons">
-        <a href="/lovecount" className="home-btn">Start Loving</a>
-        <a href="/appreciate" className="home-btn">Show Appreciation</a>
-        <a href="/bucketlist" className="home-btn">Bucket List</a>
+        <Link to="/lovecount" className="home-btn">Start Loving</Link>
+        <Link to ="/appreciate" className="home-btn">Show Appreciation</Link>
+        <Link to="/bucketlist" className="home-btn">Bucket List</Link>
       </div>
       <br></br>
       <p className="home-description">Click the <strong>Buttons</strong> to perform affirmative conscious actions to radiate your love.
