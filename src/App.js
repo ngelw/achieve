@@ -15,15 +15,16 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Navbar />
-      <HomePage />
+      {/* <HomePage /> */}
       <main>
       <Routes>
         <Route path="/lovecount" element={<LoveCount />} />
         <Route path="/appreciate" element={<Appreciate />} />
         <Route path="/bucketlist" element={<BucketList />} />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/achieve" element={<HomePage />} />
+        {/* <Route path="/achieve" element={<HomePage />} /> */}
         <Route path="/" element={<HomePage />} />
+        <Route path="/achieve" element={<HomePage />} />
         <Route path='/music' element={<Music />} />
       </Routes>
       </main>
